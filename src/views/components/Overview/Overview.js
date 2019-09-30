@@ -31,11 +31,11 @@ class Overview extends Component {
                       <strong>
                           You should attend if you:
                       </strong> <br />
-                      <ul>
-                          <li>Work as a business analyst</li>
-                          <li>Define and manage requirements through the development life cycle</li>
-                          <li>Elicit information from stakeholders to define requirements</li>
-                          <li>Solve business problems</li>
+                      <ul id="o-list">
+                          <li>• Work as a business analyst</li>
+                          <li>• Define and manage requirements through the development life cycle</li>
+                          <li>• Elicit information from stakeholders to define requirements</li>
+                          <li>• Solve business problems</li>
                       </ul>
                   </div>
                   <div className="col-sm-3">

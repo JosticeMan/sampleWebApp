@@ -12,3 +12,8 @@ div#main-div {
 div.col-sm-6, div.col-sm-3 {
     margin-top: 15px;
 }
+
+ul#o-list {
+    padding: 0;
+    list-style-type: none;
+}
