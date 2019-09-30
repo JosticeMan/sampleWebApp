@@ -10,7 +10,7 @@ nav#main-nav {
 }
 
 ul#nav-list {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 ul#nav-list li {
@@ -19,6 +19,11 @@ ul#nav-list li {
 }
 
 @media (min-width: 576px) {
+
+    ul#nav-list {
+        margin-top: 20px;
+    }
+
     #nav-list .nav-item .nav-link  {
         padding: 0;
     }
