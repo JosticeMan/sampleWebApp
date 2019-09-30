@@ -1,3 +1,9 @@
+/**
+ * Name: App.js
+ * Description: This will be the first view that the users see when they get routed to the page
+ *
+ * @author Justin Yau
+ */
 import React from 'react';
 import '../styles/App.css';
 

@@ -10,6 +10,7 @@ import "./Overview.css";
 class Overview extends Component {
     render() {
         return (
+          /*This is a container with 2 rows and 2 columns per row. Each item in the container has specific text.*/
           <div id="main-div" className="container">
               <div className="row justify-content-between">
                   <div className="col-sm-6">
