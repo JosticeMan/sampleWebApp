@@ -12,7 +12,6 @@ class NavBar extends Component {
         return (
           <nav id="main-nav" className="navbar navbar-expand-sm navbar-light">
               <div className="container collapse navbar-collapse" id="target-nav1">
-                  /*ALL NAVIGATABLE LINKS WILL BE LISTED IN THIS LIST*/
                   <ul id="nav-list" className="navbar-nav mr-auto">
                       <li className="nav-item active">
                           <a className="nav-link" href="/">Overview<span className="sr-only">(current)</span></a>

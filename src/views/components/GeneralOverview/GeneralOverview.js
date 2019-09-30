@@ -13,14 +13,11 @@ class GeneralOverview extends Component {
     render() {
         return (
             <section id="g-sec" className="jumbotron text-center">
-                /*TITLE PORTION OF THE OVERVIEW*/
                 <div className="container">
                     <h1 id="g-h1" className="jumbotron-heading">FACILITATION SKILLS FOR <br /> BUSINESS ANALYSTS</h1>
                 </div>
-                /*BODY TEXT PORTION OF THE OVERVIEW*/
                 <p id="g-p" className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Posuere diam faucibus neque <br /> vulputate nulla metus pharetra.</p>
-                /*BUTTON FOR THE OVERVIEW*/
                 <p className="h-25 container">
                     <button type="button" id="g-btn" className="btn btn-secondary">Register</button>
                 </p>
