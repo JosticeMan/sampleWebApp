@@ -14,5 +14,34 @@ ul#nav-list {
 }
 
 ul#nav-list li {
-    margin-right: 15px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+@media (min-width: 576px) {
+    #nav-list .nav-item .nav-link  {
+        padding: 0;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+.navbar-light .navbar-nav .active {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active a::after {
+    border-bottom: 3px solid black;
+    bottom: -7px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.navbar-nav > li {
+    float: left;
+    position: relative;
 }
