@@ -1,23 +1,22 @@
 /**
  * Name: App.js
- * Description: This will be the first view that the users see when they get routed to the page
+ * Description: This will be the router that handles the views that the user sees
  *
  * @author Justin Yau
  */
 import React from 'react';
 import '../styles/App.css';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
-import GeneralOverview from "./components/GeneralOverview/GeneralOverview";
-import NavBar from "./components/NavBar/NavBar";
-import Overview from "./components/Overview/Overview";
+import Home from "./Home.js";
 
 function App() {
   return (
-    <div className="App">
-        <GeneralOverview />
-        <NavBar />
-        <Overview />
-    </div>
+    <Router>
+        <Switch>
+            <Route path="/" exact component={Home}></Route>
+        </Switch>
+    </Router>
   );
 }
 

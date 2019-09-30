@@ -17,7 +17,7 @@ class GeneralOverview extends Component {
                     <h1 id="g-h1" className="jumbotron-heading">FACILITATION SKILLS FOR <br /> BUSINESS ANALYSTS</h1>
                 </div>
                 <p id="g-p" className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Posuere diam faucibus neque <br /> vulputate nulla metus pharetra.</p>
+                    Posuere diam faucibus <br /> neque vulputate nulla metus pharetra.</p>
                 <p className="h-25 container">
                     <button type="button" id="g-btn" className="btn btn-secondary">Register</button>
                 </p>
