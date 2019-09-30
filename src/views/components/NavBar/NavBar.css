@@ -1,0 +1,18 @@
+/**
+ Name: NavBar.css
+ Description: This css file will contain all the styles necessary for NavBar.js to display properly
+
+ @author Justin Yau
+ */
+
+nav#main-nav {
+    background-color: #f2f2f2;
+}
+
+ul#nav-list {
+    margin-top: 20px;
+}
+
+ul#nav-list li {
+    margin-right: 15px;
+}
