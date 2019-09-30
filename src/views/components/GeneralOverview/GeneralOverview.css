@@ -1,0 +1,30 @@
+/**
+ Name: GeneralOverview.css
+ Description: This css file will contain all the styles that will be required by GeneralOverview.js
+
+ @author Justin Yau
+ */
+
+section#g-sec {
+    background-color: #e5e5e5;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+#g-h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#g-p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#g-btn {
+    background-color: #53565d;
+    margin-top: 5px;
+    padding: 18px 28px;
+    font-weight: 500;
+}
