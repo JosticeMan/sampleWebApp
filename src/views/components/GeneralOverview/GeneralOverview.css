@@ -28,3 +28,7 @@ section#g-sec {
     padding: 18px 28px;
     font-weight: 500;
 }
+
+#g-btn:hover {
+    background-color: darkslategray;
+}

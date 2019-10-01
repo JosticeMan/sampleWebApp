@@ -20,7 +20,7 @@ class Overview extends Component {
                   </div>
                   <div className="col-sm-3">
                       <strong>
-                          Prerequisites:
+                          Prerequisites
                       </strong> <br />
                       No prerequisites: this course is suitable for both novices and experienced people
                       who need to elicit business requirements or solve business problems.
@@ -40,7 +40,7 @@ class Overview extends Component {
                   </div>
                   <div className="col-sm-3">
                       <strong>
-                          Course level:
+                          Course level
                       </strong> <br />
                       Novice/Advanced
                   </div>
