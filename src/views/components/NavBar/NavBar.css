@@ -6,7 +6,7 @@
  */
 
 nav#main-nav {
-    background-color: #f2f2f2;
+    background-color: #f6f9f8;
 }
 
 ul#nav-list {
@@ -14,7 +14,7 @@ ul#nav-list {
 }
 
 ul#nav-list li {
-    margin-right: 40px;
+    margin-right: 70px;
     font-size: 15px;
 }
 

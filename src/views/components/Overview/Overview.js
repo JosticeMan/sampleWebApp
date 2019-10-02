@@ -19,7 +19,7 @@ class Overview extends Component {
                       management skills.
                   </div>
                   <div className="col-sm-3">
-                      <strong>
+                      <strong className="tall-line">
                           Prerequisites
                       </strong> <br />
                       No prerequisites: this course is suitable for both novices and experienced people
@@ -28,7 +28,7 @@ class Overview extends Component {
               </div>
               <div className="row justify-content-between">
                   <div className="col-sm-6">
-                      <strong>
+                      <strong className="tall-line">
                           You should attend if you:
                       </strong> <br />
                       <ul id="o-list">
@@ -39,7 +39,7 @@ class Overview extends Component {
                       </ul>
                   </div>
                   <div className="col-sm-3">
-                      <strong>
+                      <strong className="tall-line">
                           Course level
                       </strong> <br />
                       Novice/Advanced
