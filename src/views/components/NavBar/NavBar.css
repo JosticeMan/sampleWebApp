@@ -14,14 +14,14 @@ ul#nav-list {
 }
 
 ul#nav-list li {
-    margin-right: 70px;
-    font-size: 15px;
+    margin-right: 65px;
+    font-size: 13px;
 }
 
 @media (min-width: 576px) {
 
     ul#nav-list {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     #nav-list .nav-item .nav-link  {
@@ -29,7 +29,7 @@ ul#nav-list li {
     }
 
     .navbar-light .navbar-nav .active a::after {
-        border-bottom: 3px solid black;
+        border-bottom: 2px solid black;
         bottom: -7px;
         content: " ";
         left: 0;
@@ -40,6 +40,7 @@ ul#nav-list li {
 
 .navbar-light .navbar-nav .nav-link {
     color: black !important;
+    line-height: 25px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
